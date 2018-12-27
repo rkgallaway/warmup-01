@@ -1,0 +1,34 @@
+* {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 60% 20%;
+}
+
+/* thought I was rusty on flexbox, seems that grid is worse!  timeup, moving on */
+
+header div {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#left {
+    background-color: blue;
+    grid-column-start: 1;
+}
+
+#center {
+    background-color: blueviolet;
+    grid-column-start: 2;
+}
+
+#right {
+    background-color: brown;
+    grid-column-start: 3;
+}
+
+footer div {
+    background-color: rgb(17, 104, 104);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
