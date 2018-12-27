@@ -1,0 +1,39 @@
+* {
+    width: 960px;
+    margin: 0px auto;
+}
+
+header div {
+    height: 150px;
+    
+    background-color: blue;
+}
+
+#left {
+    height: 500px;
+    width: 20%;
+    background-color: aqua;
+    float: left;
+}
+
+#center {
+    height: 500px;
+    width: 60%;
+    background-color: coral;
+    float: left;
+
+}
+
+#right {
+    height: 500px;
+    width: 20%;
+    background-color: cornflowerblue;
+    float: left;
+
+}
+
+footer div {
+    height: 100px;
+    background-color: darkolivegreen;
+    float: left;
+}
