@@ -1,0 +1,37 @@
+* {
+  width:960px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header {
+  height: 150px;
+}
+
+main {
+  height: calc(100% - 300px);
+}
+
+nav {
+  flex: 1;
+  width: 20%;
+  background: rgb(109, 46, 46);
+}
+
+section {
+  flex: 1;
+  width: 60%;
+  background: rgb(245, 166, 166);
+}
+
+aside {
+  flex: 1;
+  width: 20%;
+  background: rgb(109, 46, 46);
+}
+
+footer {
+  height: 100px;
+}
+ /* almost there, but NOT */
