@@ -1,0 +1,39 @@
+* {
+  margin: 0px auto;
+  width: 960px;
+}
+
+header {
+  height: 150px;
+}
+
+main {
+  height: calc(100% - 300px);
+  width: 960px;
+}
+
+nav {
+  width: 20%;
+  float: left;
+  height: 100%;
+  background: maroon;
+}
+
+section {
+  width: 60%;
+  float: left;
+  height: 100%;
+  background: burlywood;
+}
+
+aside {
+  width: 20%;
+  float: left;
+  height: 100%;
+  background: maroon;
+}
+
+footer {
+  height: 150px;
+  float: left;
+}

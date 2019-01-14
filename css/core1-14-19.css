@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%
+}
+
+body > * {
+  border: 1px solid #111
+}
+
+body > header,
+body > footer {
+  background: #444;
+}

@@ -1,0 +1,38 @@
+* {
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header {
+  height: 150px;
+}
+
+main {
+  height: calc(100% - 300px);
+}
+
+nav {
+  flex: 1;
+  width: 100px;
+  background: maroon;
+}
+
+section {
+  flex: 1;
+  width: calc(100% -200px);
+  background: burlywood;
+}
+
+aside {
+  float: 1;
+  width: 100px;
+  background: maroon;
+}
+
+footer {
+  height: 100px;
+}
+
+/* not working properly -time obx expired */
