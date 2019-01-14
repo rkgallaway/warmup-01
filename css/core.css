@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+ } 
+
+body > * {
+  border: 1px solid #111;
+}
+
+body > header, 
+body > footer {
+  background: #444;
+}
+/* trying to mimic John's example and not getting very far.  just going for at this point  */

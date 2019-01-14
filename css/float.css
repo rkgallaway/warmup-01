@@ -1,0 +1,44 @@
+* {
+  margin: 0px auto;
+  width: 960px;
+}
+
+header {
+  height: 150px;
+}
+
+main {
+  height: calc(100% - 300px);
+  width: 960px;
+}
+nav {
+  width: 20%;
+  float: left;
+  height: 100%;
+  background: rgb(109, 46, 46);
+
+}
+
+section {
+  width: 60%;
+  float: left;
+  height: 100%;
+  background: rgb(245, 166, 166);
+
+
+}
+
+aside {
+  width: 20%;
+  float: left;
+  height: 100%;
+  background: rgb(109, 46, 46);
+
+}
+
+footer {
+  height: 150px;
+  float: left;
+}
+
+/* working */
