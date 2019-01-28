@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body > * {
+  border:1px solid black;
+}
+
+body> header, body > footer {
+  background: #111;
+  color: #eee;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+main {
+  background: #fafafa;
+}
+
+main >content {
+  background: #111;
+}
+
+main > aside {
+  background: seagreen;
+}
+
+main > nav {
+  background: red;
+}
+
+.deck:first-child {
+  border-bottom: 1px solid #111;
+}
+
+.centeredWords {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
