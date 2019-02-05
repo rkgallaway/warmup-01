@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box
+}
+
+html, body {
+  height: 100%;
+}
+
+body > * {
+  border: 1px solid #111;
+}
+
+body > header, body > footer {
+  background: #444;
+  color: #eee;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+main {
+  background: #fafafa;
+}
+
+main > .content {
+  background: #111;
+}
+
+main > aside {
+  background: gold;
+}
+
+main > nav {
+  background: red;
+}
+
+.deck {
+  background: aqua;
+}
+/* 000000000000000*/
+.deck:first-child {
+  border-bottom: 1px solid #111;
+}
+
+.centerWords {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
